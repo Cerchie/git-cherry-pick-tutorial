@@ -1,0 +1,1 @@
+"This sentence represents the first commit in the tutorial."
