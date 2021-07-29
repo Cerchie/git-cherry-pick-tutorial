@@ -1,3 +1,5 @@
 "This sentence represents the first commit in the tutorial."
 
 "This sentence represents the second commit in the tutorial, the one to be cherry-picked."
+
+"This sentence represents the last commit in the tutorial." 
