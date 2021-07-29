@@ -3,7 +3,7 @@ tutorial for git-cherry-pick
 
 1. `git clone` this repo. 
 
-2. on line 5 in `cherry-pick.txt`, add "This sentence represents the wrong commit" and `git add .` and `git commit`. 
+2. on line 5 in `cherry-pick.txt`, add "This sentence represents the last commit in the tutorial." " and `git add .` and `git commit`. 
 
 3. run `git log` to find the number for the 'wrong' commit:
 
