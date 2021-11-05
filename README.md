@@ -24,13 +24,13 @@ You may need to resolve some conflicts.
 
 Learn how to cherry-pick multiple commits!
 
-    a. Remove your addition to line 5, save, and `git add .` and `git commit`
+   - Remove your addition to line 5, save, and `git add .` and `git commit`
 
-    b. Make an addition, like "This sentence represents a middle commit", save, and `git add .` and `git commit`
+   - Make an addition, like "This sentence represents a middle commit", save, and `git add .` and `git commit`
 
-    c. Make another addition, like "This sentence represents the latest commit", save, and `git add .` and `git commit`
+   - Make another addition, like "This sentence represents the latest commit", save, and `git add .` and `git commit`
 
-    d. run `git log` to find the number for the latest commit. 
+   - run `git log` to find the number for the first commit, and the latest commit. 
 
 
 Now, if you want to include the first commit you made (the removal of your addition to line 5) run:
