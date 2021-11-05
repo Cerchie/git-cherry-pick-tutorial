@@ -20,7 +20,32 @@ Run `git cherry-pick 01ec7674c359004493950a17fbe0a42d6b08c2de -x`
 
 You may need to resolve some conflicts.
 
+### Optional: 
 
+Learn how to cherry-pick multiple commits!
+
+    a. Remove your addition to line 5, save, and `git add .` and `git commit`
+
+    b. Make an addition, like "This sentence represents a middle commit", save, and `git add .` and `git commit`
+
+    c. Make another addition, like "This sentence represents the latest commit", save, and `git add .` and `git commit`
+
+    d. run `git log` to find the number for the latest commit. 
+
+
+Now, if you want to include the first commit you made (the removal of your addition to line 5) run:
+
+`git cherry-pick commit_number_first_commit^..commit_number_of_last_commit`
+
+If you _don't_ want to include it, run:
+
+`git cherry-pick commit_number_first_commit..commit_number_of_last_commit`, without the carat. 
+
+source: https://stackoverflow.com/questions/1670970/how-to-cherry-pick-multiple-commits
+
+______________________
+
+git cherry-pick A..B
 helpful flag [from the docs](https://git-scm.com/docs/git-cherry-pick):
 
 -x
