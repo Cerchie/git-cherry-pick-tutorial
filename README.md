@@ -45,7 +45,6 @@ source: https://stackoverflow.com/questions/1670970/how-to-cherry-pick-multiple-
 
 ______________________
 
-git cherry-pick A..B
 helpful flag [from the docs](https://git-scm.com/docs/git-cherry-pick):
 
 -x
